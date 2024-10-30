@@ -1,0 +1,10 @@
+download.py 所定の場所からファイルをダウンロード
+
+set_pop.py：人口ファイルの中間出力を作成（正規化された形）
+convert_pop.py：人口に係る中間ファイルを出力形式に変更（推計形式を切り替えたい場合はここのソースを修正する）
+
+set_output_gap.py：需給ギャップの中間出力を作成（四半期ごと）
+convert_output_gap.py:需給ギャップの年次データを出力（加重平均ではなく単純平均）
+
+set_potential_growth_rate.py：潜在成長力の中間出力を作成（半期ごと）
+convert_potential_growth_rate.py：潜在成長力の年次データを出力（加重平均ではなく単純平均）

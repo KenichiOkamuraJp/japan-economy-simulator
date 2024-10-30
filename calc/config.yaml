@@ -1,0 +1,23 @@
+fact_data:
+  population: 'fact-data/population_matrix.xlsx'
+  potential_growth_rate: 'fact-data/potential_growth_rate_by_annual.xlsx'
+population:
+  min_labor: 15
+  max_labor: 65
+  student_start: 6
+  student_end: 23
+potential_growth_rate:
+  tfp:
+    start_year: 2025
+    start_value: 0.44
+    delta: 1.01
+  capital_stock:
+    start_year: 2025
+    start_value: 0.18
+    delta: 1.00
+  hours_worked:
+    start_year: 2025
+    start_value: -0.26
+    delta: 0.99
+  participate:
+    delta: 0.95

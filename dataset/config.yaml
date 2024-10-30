@@ -1,0 +1,10 @@
+population:
+  list: row_data/population.csv
+  folder: row_data/population/
+  actual1: actual1920-2000.xlsx
+  actual2: actual2000-2020.xlsx
+output_gap_and_potential_growth_rate:
+  original: row_data/og_and_pgr/og_and_pgr.xlsx
+bond:
+  interest: row_data/bond/jgbcm_all.csv
+  structure: row_data/bond/structure.xlsx
