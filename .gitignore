@@ -1,5 +1,6 @@
-/calc/__pycache__
-/calc/fact-data
-/calc/*.xlsx
-/dataset/row_data
+/dataset/row_data/*
+!/dataset/row_data/population.csv
 /dataset/output
+
+/calc/__pycache__
+/calc/*.xlsx

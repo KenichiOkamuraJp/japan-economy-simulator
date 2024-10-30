@@ -1,3 +1,4 @@
+import os
 import requests
 
 def _do(url, filename):
@@ -7,6 +8,19 @@ def _do(url, filename):
     f.write(urlData)
 
 if __name__ == '__main__':
+
+  ############################################################################################
+  # フォルダ作成
+  ############################################################################################
+  # ダウンロード先となるフォルダの作成
+  os.makedirs('row_data', exist_ok=True)
+  os.makedirs('row_data/population', exist_ok=True)
+  os.makedirs('row_data/og_and_pgr', exist_ok=True)
+  os.makedirs('row_data/budget', exist_ok=True)
+  os.makedirs('row_data/bond', exist_ok=True)
+
+  # アウトプット出力先となるフォルダの作成
+  os.makedirs('output', exist_ok=True)
 
   ############################################################################################
   # 人口
